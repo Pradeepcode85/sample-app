@@ -32,7 +32,63 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+
+.sidebar {
+  width: 220px;
+  background-color: #2f3542;
+  color: white;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background-color: #57606f;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+    height: 100vh;
+}
+
+.topbar {
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar h1 {
+  font-size: 1.25rem;
+}
+
+
+.content {
+  padding: 2rem;
+}
+
+.toprow {
+ height : 15vh;
+ background-color : gray;
+}
+
+  

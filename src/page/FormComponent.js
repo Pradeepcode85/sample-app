@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { useSubmit, useNavigate , Form} from 'react-router-dom';
-import Confirmation from './Confirmation';
+//import { useNavigate } from 'react-router-dom';
+//import Confirmation from './Confirmation';
 
 function FormComponent() {
   const [name, setName] = useState("");
-  const navigate = useNavigate();
+ // const navigate = useNavigate();        
 
   const handleSubmit = (event) => {
+    alert();
     event.preventDefault();
    // navigate('/confirmation')
    return (<h1>Form submitted successfully.......................</h1>);
